@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Todo App</h1>
+        <h4>Enter your task:</h4>
+        <form action="" id="form">
+            <input type="text" name="" id="form_input">
+            <button type="submit" id="add_btn">Add</button>
+            
+        <select name="" id="priority">
+            <option value="high">High</option>
+            <option value="moderate">Moderate</option>
+            <option value="low">Low</option>
+        </select>
+        </form>
+
+    </header>
+
+    <div id="error"></div>
+
+    <section id="filter">
+        <button class="btn" data-filter="all">All</button>
+        <button class="btn" data-filter="high">High</button>
+        <button class="btn" data-filter="moderate">Moderate</button>
+        <button class="btn" data-filter="Low">Low</button>
+    </section>
+
+    <main class="display">
+        <ul class="task"></ul>
+    </main>
+
+    
+<script src="script.js"></script>
+</body>
+</html>
